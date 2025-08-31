@@ -51,18 +51,7 @@ setup(
     # project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/discussions/install-requires-vs-requirements/
-    install_requires=[
-        # CKAN extensions should not list dependencies here, but in a separate
-        # ``requirements.txt`` file.
-        #
-        # http://docs.ckan.org/en/latest/extensions/best-practices.html#add-third-party-libraries-to-requirements-txt
-        "jinja2>=3.1.4",
-        "fiona==1.10.1",
-        "pandas>=2.2.3",
-        "semver==3.0.4",
-        "shapely>=2.1.0",
-        "pyproj>=3.7.1",
-    ],
+    install_requires=[],
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
